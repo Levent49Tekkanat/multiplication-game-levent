@@ -49,7 +49,7 @@ function onPlay(event) {
             <p aria-live="assertive"  id="label"> calcul ${one}*  ${two} </p> 
             <form id="form-game">
 
-<input type="number" id="input">
+<input type="tel" id="input">
 <button type="submit" id="valid">Valider</button>
 </form> 
 <div id="div-up"> 
@@ -81,7 +81,7 @@ function onPlay(event) {
                 <form id="form-game">
 
 
-<input type="number" id="input">
+<input type="tel" id="input">
 <button type="submit" id="valid">Valider</button>
 </form>
 <div>Ton score ${score}</div>
