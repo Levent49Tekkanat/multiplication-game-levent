@@ -8,7 +8,7 @@ export default function initChrno() {
 function onChrono(event) {
 if (event.target === document.getElementById("play")) {
 
-var h1 = document.getElementsByTagName('h1')[0];
+var h1 = document.getElementById('chronos');
 var start = document.getElementById('play');
 
 
