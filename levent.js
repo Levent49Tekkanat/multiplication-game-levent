@@ -46,10 +46,10 @@ function onPlay(event) {
         
 
         const message = `
-            <p aria-live="assertive"  id="label"> calcul ${one}*  ${two} </p> 
+            
             <form id="form-game">
-
-<input type="tel" id="input">
+            <p aria-live="assertive"  id="label"> calcul ${one}*  ${two} </p> 
+            <input type="text" inputmode="numeric" id="input">
 <button type="submit" id="valid">Valider</button>
 </form> 
 <div id="div-up"> 
@@ -77,11 +77,11 @@ function onPlay(event) {
             two = Math.round(Math.random() * 10);
             result = one * two
             const message = `
-                <p aria-live="assertive" id="label"> calcul ${one} * ${two} </p> 
+                
                 <form id="form-game">
+                <p aria-live="assertive" id="label"> calcul ${one} * ${two} </p> 
 
-
-<input type="tel" id="input">
+                <input type="text" inputmode="numeric" id="input">
 <button type="submit" id="valid">Valider</button>
 </form>
 <div>Ton score ${score}</div>
